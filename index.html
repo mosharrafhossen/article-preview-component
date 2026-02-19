@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Article Preview Component</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,7 +31,7 @@
 
       <div class="author-section">
 
-        <div class="author-info">
+        <div class="author-info" id="authorInfo">
           <img src="images/avatar-michelle.jpg" alt="Michelle">
           <div>
             <h4>Michelle Appleton</h4>
@@ -43,7 +40,7 @@
         </div>
 
         <button class="share-btn" id="shareBtn">
-          <img src="images/icon-share.svg" alt="share">
+          <img src="images/icon-share.svg" alt="Share">
         </button>
 
         <div class="share-popup" id="sharePopup">
@@ -51,6 +48,10 @@
           <img src="images/icon-facebook.svg" alt="Facebook">
           <img src="images/icon-twitter.svg" alt="Twitter">
           <img src="images/icon-pinterest.svg" alt="Pinterest">
+
+          <button class="mobile-share" id="mobileShare">
+            <img src="images/icon-share.svg" alt="">
+          </button>
         </div>
 
       </div>
